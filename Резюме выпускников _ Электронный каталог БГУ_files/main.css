@@ -956,3 +956,19 @@ main .article-heading::after {
 .dropzone-input:after {
 	content: '...'
 }
+
+@media (max-width: 975px) {
+  #navbarToggler{
+    z-index: 9999;
+  }
+  #navbarToggler ul{
+    display:flex;
+    align-items: flex-end;
+  }
+  #navbarToggler button{
+    float: right;
+  }
+  #navbarToggler div{
+    float: right;
+  }
+}
