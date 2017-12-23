@@ -970,7 +970,7 @@ main .article-heading::after {
   }
   #navbarToggler{
     z-index: 9999;
-    margin-bottom: 5px;
+    padding-bottom: 5px;
     background-color: #F8F9FA;
     width: 100%;
   }
