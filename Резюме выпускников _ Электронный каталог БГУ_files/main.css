@@ -958,8 +958,21 @@ main .article-heading::after {
 }
 
 @media (max-width: 975px) {
+  .row nav {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .navbar-brand{
+    padding-left: 3.2vw;
+  }
+  .navbar-toggler{
+    margin-right: 3.2vw;
+  }
   #navbarToggler{
     z-index: 9999;
+    margin-bottom: 5px;
+    background-color: #F8F9FA;
+    width: 100%;
   }
   #navbarToggler ul{
     display:flex;
