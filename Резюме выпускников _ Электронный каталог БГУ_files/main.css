@@ -234,7 +234,7 @@ h3 {
 	width:100%
 }
 .navbar-brand {
-	width: 250px;
+	width: 70%;
 }
 .navbar-brand span {
 	font-family: 'Roboto Condensed', sans-serif;
@@ -310,7 +310,7 @@ h3 {
 .bg-main {
     background-image: url('/project/templates/_ares/images/bg-main.jpg');
     min-height: 450px;
-    background-size: cover;
+    background-size: auto;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -361,10 +361,12 @@ h3 {
     display: inline-flex;
 }
 .list-inline li{
-    margin-right:15px;
+    margin-right: 1vw;
+    padding-right: 1vw;
 }
 .list-inline li:last-child{
     margin-right:0px;
+    padding-right: 0px;
 }
 .list-inline .destination time {
     color:#1b2e4f;
@@ -380,9 +382,9 @@ main .news::before {
     content: attr(data-heading);
     position: absolute;
     top: 0;
-    left: -50px;
+
     color: #f6f6f7;
-    font-size: 200px;
+    font-size: 15vw;
     line-height: 0.666;
     z-index: -999;
 }
