@@ -962,26 +962,36 @@ main .article-heading::after {
     padding-left: 0px;
     padding-right: 0px;
   }
+
   .navbar-brand{
     padding-left: 3.2vw;
   }
+
   .navbar-toggler{
     margin-right: 3.2vw;
   }
+
   #navbarToggler{
     z-index: 9999;
     padding-bottom: 5px;
     background-color: #F8F9FA;
     width: 100%;
   }
+
   #navbarToggler ul{
     display:flex;
     align-items: flex-end;
   }
+
   #navbarToggler button{
     float: right;
   }
+  
   #navbarToggler div{
     float: right;
+  }
+
+  .nav-item{
+    padding-bottom: 5px;
   }
 }
